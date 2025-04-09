@@ -1,2 +1,3 @@
-# Pizza_sales_Report
-This repository contains the code and data for a Power BI project that analyzes pizza sales data. The project aims to provide actionable insights into sales performance, customer preferences, and identify areas for improvement to optimize business strategies.
+# Pizza Sales Report with Sql and Power BI
+Welcome to the Pizza Sales Report project, where we leverage SQL for data analysis and Power BI for creating interactive visualizations. This project provides in-depth insights into pizza sales data, including daily and monthly trends, sales by pizza category and size, and identifying top-selling pizzas based on revenue, quantity, and total orders.
+The goal of this project is to provide insights and actionable information to help the pizza restaurant chain optimize its operations, improve sales, and enhance customer satisfaction.
