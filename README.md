@@ -19,11 +19,11 @@ The Client divided the problem statement into two sections.
 
 **1. KPI’s requirement** -  We need to analyze the key indicators for our Pizza sales data to gain insights into our business performance, we want to calculate the following metrics :
 
-           •	Total Revenue
-           •	Total Orders
-           •	Average Order Value
-           •	Total Pizzas Sold
-           •	Average Pizzas Per Order
+           •	Total Revenue --sum of total price   of all pizzas  orders
+           •	Total Orders --total revenue/ total orders,the average amount spent per order
+           •	Average Order Value--total revenue/ total orders
+           •	Total Pizzas Sold--sum of quntities of all pizzas sold
+           •	Average Pizzas Per Order--total number of pizzas sold/total no of orders
  **1. Charts’s requirement** -We would like to visualize various aspects of our Pizza sales data to gain insights and understand key trends. We have identified the following requirements for creating charts :
  
         • Dailly Trend For Total Orders
@@ -47,12 +47,99 @@ into the popularity of various pizza categories and their contribution to overal
 -  **top 5 Best sellers by revenue ,total quantity and total orders:** create a bar chart highlighting the top 5 best-selling pizzas based on the revenue ,total quantity,total orders.this  chart will help us to identify the most popular pizza  options 
 - **Bottom 5 Best sellers by Revenue,total quantity and total orders:** create a bar chart showcasing the bottom 5 worst-selling pizzas based on the revenue,total quantity ,total orders,.
 this chart will enable us to identify underperforming or less popular pizzas options.
-   - **Filter and Search:** Easily filter data by Pizza Category and by order_date
-   - **Dax Measures For Enhanced Control and Reusability:** I harnessed the Power of Dax to create explict measures.these measures enabled me to perform advanced Calculations and aggregations while offering better control ,reusability ,and efficiency in connecting different components within the report .
-     
-                  
-           
-
+- **Filter and Search:** Easily filter data by Pizza Category and by order_date
+ - **Dax Measures For Enhanced Control and Reusability:** I harnessed the Power of Dax to create explict measures.these measures enabled me to perform advanced Calculations and aggregations while offering better control ,reusability ,and efficiency in connecting different components within the report .
  
-      
-            
+   # Process involved in building the project
+       •	Step 1: Data Acquisition
+       •	Step 2: Data Transformation
+       •	Step 3: Data Analysis
+       •	Step 4: Power BI Visualization and Building Dashboard
+     
+
+# Data Acquisition
+
+The project begins with the acquisition of raw  pizza  sales data.To kickstart the analysis, I first take a look at the dataset which provides information about pizza orders, namely, pizza id, order id, pizza name id, quantity, order date, order time, unit price, total price, pizza size, pizza category, pizza ingredient and pizza name etc.
+
+# Data Transformations
+In Power Query Editor,
+
+
+• Transformed the abbreviations in the "size" column into descriptive names, enhancing comprehension and usability of the dataset. This modification improves clarity and facilitates easier interpretation of the pizza sizes.
+
+       S >> Small
+
+       M >> Medium
+
+       L  >> Large
+
+      XL >> X-Large
+
+      XXL >> XX-Large
+
+
+
+
+• Implemented a custom column named "Total_price" by multiplying the "quantity" with the "unit_price," enhancing the dataset's clarity and facilitating straightforward calculation of total prices for each item.
+
+• Implemented DAX measures to calculate key metrics such as Total Revenue and Average Order Value , providing valuable insights into sales performance. These measures enable stakeholders to make informed decisions based on accurate and easily accessible financial information.
+ # Data Analysis with SQL
+
+ The SQL analysis involved the extraction and transformation of the data, which includes details of pizza sales, pizza category, size, and featuring various KPI's.The SQL scripts and queries used for data extraction, transformation, and loading can be found in the sql_sales_analysis.sql of this repository.
+
+
+ The SQL analytics include:
+
+    Identifying the daily,hourly and monthly trends of the pizzas sold and the revenue generated.
+  
+    Identifying the top-selling pizzas based on revenue, quantity, and total orders.
+  
+    Identify the least-selling pizzas based on revenue, quantity, and total orders.
+  
+    Identifying the % of sales by pizza category and orders placed by the customers.
+
+    Identifying  total pizza sold by pizza Category
+  
+    Identifying  total orders,total revenue,Average order per value,total pizzas sold,average pizza per order
+    
+# Power BI Visualization and Building Dashboard  
+Power BI is used to create interactive and informative visualizations that showcase the insights gained from the data analysis. 
+
+# Dashboard Overview
+Developed two dynamic dashboards in Power BI to cater to distinct business needs:
+
+• The first dashboard features essential Key Performance Indicators (KPIs), including Total Revenue, Total Orders, Average Order Value, and Total pizzas sold, alongside insightful charts displaying busiest days and times, as well as sales performance trends over specific time periods.Bar charts and pie charts displaying sales by product category. This dashboard empowers stakeholders with actionable insights to optimize operational efficiency and strategic decision-making.
+
+• The second dashboard highlights best and worst-selling pizzas through visually engaging charts and tables, providing a comprehensive overview of pizza sales performance.Identification of top-selling pizzas/Least-Selling Pizzas based on various metrics. By leveraging intuitive visuals and comparative analysis, this dashboard facilitates informed product management strategies and enables targeted marketing efforts to drive sales growth.
+
+# Conclusion:
+The analysis has unveiled critical insights that can guide business decisions. Some of these are as follows:
+
+    Friday records the highest received orders followed by Thursday and Saturday. Similarly July and followed by May and January.
+    
+    The Classic Category and Large Size Pizza contribute the maximum sales.
+    
+    The Classic Deluxe Pizza is a top performer in terms of quantity showing strong demand.
+    
+    The Thai Chicken Pizza generates the highest revenue while Classic Deluxe Pizza is the most patronised pizza by customers.
+    
+    The Brie Carre Pizza is the least patronized and hence generates the lowest revenue.
+    
+    Percentage of Sales by Pizza Category and Percentage of Sales by Pizza Size provide insights into the contribution of different products. 
+    From the above, it can be seen that even though Thai Chicken Pizza generated the highest revenue,
+    it wasn’t the most patronized pizza. Rather fifth patronized pizza (from top 5 pizzas by quantity and order). This can be 
+    attributed to price and size differences.
+
+# Recommendations:
+    The Power BI analysis provides valuable insights into the performance of different pizzas, helping in making informed decisions to improve sales and customer satisfaction.
+
+    The Classic Deluxe Pizza are customer's favourite and should be marketed more prominently.
+    
+    It is also recommended that priority should be given to the Large Size and Classic categories since they dominate sales.
+    
+    The month of July records the highest patronage periods. To keep sales going smoothly and prevent any eventuality of shortage, it is recommended that additional staff and resources 
+    should be allocated to this month. Same as Fridays.
+
+
+
+
