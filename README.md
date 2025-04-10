@@ -117,7 +117,7 @@ Developed two dynamic dashboards in Power BI to cater to distinct business needs
 ![Alt text of the image](https://github.com/gaurav510610/Pizza_sales_Report/blob/main/Dashboard/home-1.png)
 # Best/Worst Sellers Report Dashboard
 ![Alt text of the image](https://github.com/gaurav510610/Pizza_sales_Report/blob/main/Dashboard/best_worst_sellers-1.png)
-### Check out the [Pizza Sales Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMzU0NDY5MTAtZTc2MS00MzIzLTljOGItY2ZiNDhhZDVhMGE1IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+### Check out the [Pizza Sales Dashboard](https://github.com/gaurav510610/Pizza_sales_Report/blob/main/Pizza%20Sales%20Report.pbix)
   
 
 # Conclusion:
