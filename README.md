@@ -1,4 +1,7 @@
-# Pizza Sales Report with Sql and Power BI
+## Pizza Sales Report with Sql and Power BI
+
+![Alt text of the image](https://github.com/gaurav510610/Pizza_sales_Report/blob/main/pizza.webp)
+
 The Pizza Sales Project is a data analysis and visualization project aimed at analyzing and visualizing sales data from a fictional pizza restaurant chain. This project provides in-depth insights into pizza sales data, including daily and monthly trends, sales by pizza category and size, and identifying top-selling pizzas based on revenue, quantity, and total orders.
 The goal of this project is to provide insights and actionable information to help the pizza restaurant chain optimize its operations, improve sales, and enhance customer satisfaction.
 
