@@ -85,7 +85,7 @@ In Power Query Editor,
 • Implemented DAX measures to calculate key metrics such as Total Revenue and Average Order Value , providing valuable insights into sales performance. These measures enable stakeholders to make informed decisions based on accurate and easily accessible financial information.
  # Data Analysis with SQL
 
- The SQL analysis involved the extraction and transformation of the data, which includes details of pizza sales, pizza category, size, and featuring various KPI's.The SQL scripts and queries used for data extraction, transformation, and loading can be found in the sql_sales_analysis.sql of this repository.
+ The SQL analysis involved the extraction and transformation of the data, which includes details of pizza sales, pizza category, size, and featuring various KPI's.The SQL scripts and queries used for data extraction, transformation, and loading can be found in the https://github.com/gaurav510610/Pizza_sales_Report/blob/main/Pizza_sql_queries.pdf of this repository.
 
 
  The SQL analytics include:
