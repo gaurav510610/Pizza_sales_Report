@@ -111,6 +111,8 @@ Developed two dynamic dashboards in Power BI to cater to distinct business needs
 • The first dashboard features essential Key Performance Indicators (KPIs), including Total Revenue, Total Orders, Average Order Value, and Total pizzas sold, alongside insightful charts displaying busiest days and times, as well as sales performance trends over specific time periods.Bar charts and pie charts displaying sales by product category. This dashboard empowers stakeholders with actionable insights to optimize operational efficiency and strategic decision-making.
 
 • The second dashboard highlights best and worst-selling pizzas through visually engaging charts and tables, providing a comprehensive overview of pizza sales performance.Identification of top-selling pizzas/Least-Selling Pizzas based on various metrics. By leveraging intuitive visuals and comparative analysis, this dashboard facilitates informed product management strategies and enables targeted marketing efforts to drive sales growth.
+# Home Page Report Dashboard
+
 
 # Conclusion:
 The analysis has unveiled critical insights that can guide business decisions. Some of these are as follows:
