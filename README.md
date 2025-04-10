@@ -113,7 +113,8 @@ Developed two dynamic dashboards in Power BI to cater to distinct business needs
 • The second dashboard highlights best and worst-selling pizzas through visually engaging charts and tables, providing a comprehensive overview of pizza sales performance.Identification of top-selling pizzas/Least-Selling Pizzas based on various metrics. By leveraging intuitive visuals and comparative analysis, this dashboard facilitates informed product management strategies and enables targeted marketing efforts to drive sales growth.
 # Home Page Report Dashboard
 ![Alt text of the image](https://github.com/gaurav510610/Pizza_sales_Report/blob/main/Dashboard/home-1.png)
-
+# Best/Worst Sellers Report Dashboard
+![Alt text of the image](https://github.com/gaurav510610/Pizza_sales_Report/blob/main/Dashboard/best_worst_sellers-1.png)
 
 # Conclusion:
 The analysis has unveiled critical insights that can guide business decisions. Some of these are as follows:
